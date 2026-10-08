@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-index {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.container-header-index {
+    width: 100%;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+.logo span {
+    color: blue;
+}
+
+.nav-index {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-index a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background-color: #111827;
+    color: white;
+    padding: 50px 40px 20px;
+}
+
+/* Première section du footer */
+.footer > section:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Les 4 colonnes */
+.title-web,
+.compus,
+.reseaux-sociaux,
+.rejoindre-nous {
+    width: 25%;
+}
+
+/* =========================
+   TITRES
+========================= */
+
+.title-web h1 {
+    font-size: 30px;
+    color: #f97316;
+    margin-bottom: 15px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   TEXTES
+========================= */
+
+.footer p {
+    color: #d1d5db;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   BOUTON
+========================= */
+
+.rejoindre-nous button {
+    background-color: #f97316;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.rejoindre-nous button a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rejoindre-nous button:hover {
+    background-color: #ea580c;
+}
+
+/* =========================
+   DEUXIÈME SECTION
+========================= */
+
+.footer > section:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #374151;
+
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+/* Copyright */
+
+.copyright p {
+    margin: 0;
+    color: #9ca3af;
+}
+
+/* Mentions légales */
+
+.footer-legal p {
+    margin: 0;
+    color: #9ca3af;
+}
